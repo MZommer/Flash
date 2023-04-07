@@ -66,6 +66,8 @@ class LyricData:
             "no": [getString(binaryReader) for _ in range(entryCount)],  # Norwegian
             "sv": [getString(binaryReader) for _ in range(entryCount)],  # Swedish
             "pt": [getString(binaryReader) for _ in range(entryCount)],  # Portuguese
+            "pl": [getString(binaryReader) for _ in range(entryCount)],  # Polish
+            # ? in the binary claims here goes polish? untested
         }
 
 
