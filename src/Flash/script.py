@@ -5,6 +5,7 @@ class Script:
     def __init__(self):
         self.endbeat: float = 0
         self.startbeat: float = 0
+        self.delay: float = 1000
         self.showUi: float = 0
         self.pictos: list[dict] = []
         self.moves: list[list[dict]] = [[], []]
